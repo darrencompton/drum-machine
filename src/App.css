@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+#drum-machine {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: tomato;
+  text-align: center;
+  margin-top: 25vh;
+}
+.drum-pad {
+  flex: auto;
+  width: 30vw;
+  border: 2px solid yellow;
+  background-color: black;
+  color: white;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  margin: 10px;
+}
+.header {
+  flex: auto;
+  width: 100%;
+}
+.footer {
+  flex: auto;
+  width: 100%;
+}

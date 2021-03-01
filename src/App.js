@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Component } from "react";
 import audioTune1 from "./assets/RDM_Analog_MT40_90-01.wav";
@@ -42,7 +41,6 @@ class App extends Component {
       sound.currentTime = 0;
       this.setState({ displayMessage: soundMap[key].message });
       await sound.play();
-      this.setState({ displayMessage: "Not Playing Sound" });
     }
   }
   playSound = (key) => {
